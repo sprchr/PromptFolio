@@ -41,8 +41,8 @@ interface FormData {
 }
 
 // Updated GitHub OAuth credentials
-const GITHUB_CLIENT_ID = 'Ov23liWcqO97hq90ZEaU';
-const GITHUB_CLIENT_SECRET = 'd9ffdc1d72a8d4e99e0e4ff81fb3dce23d6a556d';
+const GITHUB_CLIENT_ID = 'BLANK';
+const GITHUB_CLIENT_SECRET = 'BLANK';
 
 function App() {
   const [currentView, setCurrentView] = useState<'landing' | 'generator' | 'portfolio'>('landing');

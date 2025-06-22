@@ -1,8 +1,13 @@
 const fetch = require('node-fetch');
 
 // Updated GitHub OAuth credentials
-const GITHUB_CLIENT_ID = 'Ov23liWcqO97hq90ZEaU';
-const GITHUB_CLIENT_SECRET = 'd9ffdc1d72a8d4e99e0e4ff81fb3dce23d6a556d';
+const GITHUB_CLIENT_ID = 'blank'; // Replace with your actual GitHub Client ID
+// Note: For security reasons, do not hardcode your client secret in production code.
+// Instead, use environment variables or a secure vault service to manage sensitive credentials.
+// For this example, we are using a placeholder value.
+// In a real application, you should set this in your Netlify environment variables.
+// You can set this in your Netlify dashboard under Site settings > Build & deploy > Environment variables.
+const GITHUB_CLIENT_SECRET = 'blank';
 
 exports.handler = async (event, context) => {
   // Enable CORS

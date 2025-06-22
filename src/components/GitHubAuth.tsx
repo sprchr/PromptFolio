@@ -14,7 +14,7 @@ interface GitHubAuthProps {
 }
 
 // Updated GitHub OAuth credentials
-const GITHUB_CLIENT_ID = 'Ov23liWcqO97hq90ZEaU';
+const GITHUB_CLIENT_ID = 'BLANK_CLIENT_ID'; // Replace with your actual GitHub OAuth client ID
 
 export const GitHubAuth: React.FC<GitHubAuthProps> = ({ onAuthSuccess, onClose }) => {
   const [authStatus, setAuthStatus] = useState<'idle' | 'authorizing'>('idle');
