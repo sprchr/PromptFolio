@@ -335,12 +335,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Lucide** for beautiful, consistent icons
 - **Vite** for lightning-fast development experience
 
-## 📞 Support & Contact
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/promptfolio/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/promptfolio/discussions)
-- **Email**: support@promptfolio.com (if applicable)
-- **Twitter**: [@promptfolio](https://twitter.com/promptfolio) (if applicable)
 
 ---
 
